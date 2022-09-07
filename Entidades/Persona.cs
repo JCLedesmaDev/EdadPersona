@@ -23,24 +23,24 @@ namespace Entidades
 
         public string Nombre
         {
-            set { nombre = value; }
-            get { return nombre; }
+            set { this.nombre = value; }
+            get { return this.nombre; }
         }
         public int DNI
         {
-            set { dni = value; }
-            get { return dni; }
+            set { this.dni = value; }
+            get { return this.dni; }
         }
 
         public DateTime FechaNacimiento
         {
-            set { fechaNacimiento = value; }
-            get { return fechaNacimiento; }
+            set { this.fechaNacimiento = value; }
+            get { return this.fechaNacimiento; }
         }
 
         public double DevolucionEdad()
         {
-            TimeSpan TiempoDiferencia = DateTime.Now.Subtract(FechaNacimiento);
+            TimeSpan TiempoDiferencia = DateTime.Now.Subtract(this.FechaNacimiento);
 
             double años = Math.Floor(TiempoDiferencia.TotalDays / 365);
 
