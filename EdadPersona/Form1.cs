@@ -26,7 +26,7 @@ namespace EdadPersona
                 persona = new Persona(
                     txtNombre.Text, 
                     Convert.ToInt32(txtDNI.Text), 
-                    DateTime.Parse(txtFechaNac.Text)
+                    DateTime.Parse(txtFechaNacimiento.Text)
                 );
 
                 if (persona.DNI.ToString().Length != 8)

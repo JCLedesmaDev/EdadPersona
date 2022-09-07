@@ -33,7 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtDNI = new System.Windows.Forms.TextBox();
-            this.txtFechaNac = new System.Windows.Forms.TextBox();
+            this.txtFechaNacimiento = new System.Windows.Forms.TextBox();
             this.btnPersona = new System.Windows.Forms.Button();
             this.btnEdad = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
@@ -86,13 +86,13 @@
             this.txtDNI.Size = new System.Drawing.Size(132, 22);
             this.txtDNI.TabIndex = 4;
             // 
-            // txtFechaNac
+            // txtFechaNacimiento
             // 
-            this.txtFechaNac.Location = new System.Drawing.Point(321, 214);
-            this.txtFechaNac.Margin = new System.Windows.Forms.Padding(4);
-            this.txtFechaNac.Name = "txtFechaNac";
-            this.txtFechaNac.Size = new System.Drawing.Size(132, 22);
-            this.txtFechaNac.TabIndex = 5;
+            this.txtFechaNacimiento.Location = new System.Drawing.Point(321, 214);
+            this.txtFechaNacimiento.Margin = new System.Windows.Forms.Padding(4);
+            this.txtFechaNacimiento.Name = "txtFechaNacimiento";
+            this.txtFechaNacimiento.Size = new System.Drawing.Size(132, 22);
+            this.txtFechaNacimiento.TabIndex = 5;
             // 
             // btnPersona
             // 
@@ -144,7 +144,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnEdad);
             this.Controls.Add(this.btnPersona);
-            this.Controls.Add(this.txtFechaNac);
+            this.Controls.Add(this.txtFechaNacimiento);
             this.Controls.Add(this.txtDNI);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label3);
@@ -165,7 +165,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtDNI;
-        private System.Windows.Forms.TextBox txtFechaNac;
+        private System.Windows.Forms.TextBox txtFechaNacimiento;
         private System.Windows.Forms.Button btnPersona;
         private System.Windows.Forms.Button btnEdad;
         private System.Windows.Forms.Label label4;
